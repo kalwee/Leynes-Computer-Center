@@ -350,19 +350,19 @@ padding: 2rem;
 }
 
 @media (max-width:900px) {
-  .container .text h1{
-  font-size: 20px;
+  .container .logo .text h1{
+  font-size: 30px;
   padding-top: 50px;
   }
 }
 @media (max-width:700px) {
-  .container .text h1{
+  .container .logo .text h1{
   font-size: 30px;
   padding-top: 30px;
   }
 }
 @media (max-width:580px) {
-  .container .text h1{
+  .container .logo .text h1{
   font-size: 30px;
   }
 }
