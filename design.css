@@ -220,10 +220,10 @@ padding: 2rem;
   flex-direction: column;
 }
 .btn-group .btn{
-  height: 50px;
-  width: 150px;
+  height: 100px;
+  width: 200px;
   padding: 10px;
-  font-size: large;
+  font-size: xx-large;
   background-color: rgb(71, 161, 197);
   transition: background-color 0.2s ease-in, color 0.2s ease-in; /* Transition for both background-color and color */
 }
@@ -248,8 +248,10 @@ padding: 2rem;
 
 }
 .home-btn1{
-  width: 100%;
-  height: 100%;
+  height: 50px;
+  width: 150px;
+  padding: 20px;
+  font-size: x-large;
   background-color: rgb(59, 154, 154);
   padding: 0 1rem 1rem 1rem;
 
