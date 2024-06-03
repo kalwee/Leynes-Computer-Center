@@ -193,6 +193,7 @@ body{
   display: inline-block;
   padding: 5px 10px;
   text-decoration: none;
+  font-size: xx-large;
   color: black; /* Dark grey text color */
   transition: background-color 0.2s ease-in, color 0.2s ease-in; /* Transition for both background-color and color */
 }
