@@ -181,7 +181,7 @@ body{
   width: fit-content;
   background-color: transparent;
   text-align: center;
-  gap: 3rem;
+  gap: 1rem;
   padding: 5px;
 }
 .panel a{
@@ -375,4 +375,11 @@ padding: 2rem;
   }  
 }
 
+@media (max-width:380px) {
+  .container .logo .text h1{
+  font-size: 30px;
+  padding-top: 30px;
+
+  }
+}
 
