@@ -35,6 +35,33 @@ body{
   gap: 14px;
   padding: 24px;
 }
+.formTop{
+  display: flex;
+  height: max-content;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.backTop{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  height: max-content;
+  align-items: center;
+  width: 100%;
+}
+.backTop span{
+  align-self: flex-end;
+  width: fit-content;
+  margin-left: 900px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.formTop span, .backTop span{
+  font-size: 50px;
+  font-weight: 600;
+  color: #71f3ab;
+}
   
   /*checkbox to switch from sign up to login*/
   #chk {
@@ -172,8 +199,13 @@ body{
 
 /* end of text */
 /* nav-panel */
+
 .nav-panel{
   display: inline-block;
+  background-color: #71f3ab;
+  border-radius: 4rem;
+  padding: 1rem 2rem;
+  
 }
 .panel{
   display: flex;
@@ -238,9 +270,13 @@ padding: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  background-color: rgb(59, 154, 154);
-  width: 100%;
+  background-color: #71f3ac42;
+  margin: 0 4rem;
+  margin-top: 3rem;
+  width: 90%;
   height: 100%;
+  padding: 2rem;
+  border-radius: 2rem;
 }
 .submit{
   width: 100%;
@@ -248,29 +284,52 @@ padding: 2rem;
 
 }
 .home-btn1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 50px;
   width: 100%;
   padding: 20px;
+  margin-top: 2rem;
   font-size: x-large;
-  background-color: rgb(59, 154, 154);
   padding: 0 1rem 1rem 1rem;
 
 }
 
-.submit .sbn, .home-btn1 .btn{
+
+.submit .sbn{
   width: 100px;
   height: 30px;
   background-color: rgb(132, 173, 189);
   
+}
+.home-btn1 .btn{
+
+  width: 100px;
+  height: 30px;
+  background-color: rgb(132, 173, 189);
+
 }
 .detail{
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-.detail label{
-  font-size: 15px;
+.detail input{
+  width: 50%;
+  height: 40px;
+  background: #ffffff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
 }
+.detail label{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+
 
 /* ------------- Terms ----------------- */
 .terms{
@@ -311,6 +370,12 @@ padding: 2rem;
 .contact-info .social-media-link a img, .contact-info .phone-info img{
   height: 30px;
   width: auto;
+
+}
+.about{
+  margin-top: 1rem;
+  height: fit-content;
+  width: 100%;
 
 }
 
