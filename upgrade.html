@@ -20,54 +20,56 @@
                 <a href="terms.html" class="nav-item">Terms and Policies</a>
             </div>
         </div>
-        <form id="upgrade-form" action="process_upgrade_form.php" method="POST">
-            <div class="formTop">
-                <h1>Upgrade Booking Details:</h1>
-                <a href="services.html" rel="print"><span class="material-symbols-rounded">arrow_back</span></a>
-            </div>
-            <div class="detail">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="detail">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="detail">
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" required>
-            </div>
-            <div class="detail">
-                <label for="device">Device:</label>
-                <select id="device" name="device" required>
-                    <option value="">Select a device</option>
-                    <option value="Laptop">Laptop</option>
-                    <option value="Desktop">Desktop</option>
-                    <option value="Tablet">Tablet</option>
-                    <option value="Smartphone">Smartphone</option>
-                </select>
-            </div>
-            <div class="detail">
-                <label for="upgrade-details">Upgrade Details:</label>
-                <textarea id="upgrade-details" name="upgrade-details" required></textarea>
-            </div>
-            <div class="detail">
-                <label for="appointment-date">Appointment Date:</label>
-                <input type="date" id="appointment-date" name="appointment-date" required>
-            </div>
-            <div class="detail">
-                <label for="appointment-time">Appointment Time:</label>
-                <input type="time" id="appointment-time" name="appointment-time" required>
-            </div>
-            <div class="detail">
-                <label for="additional-notes">Additional Notes:</label>
-                <textarea id="additional-notes" name="additional-notes"></textarea>
-            </div>
+        <div class="upgradeForm">
+            <form id="upgrade-form" action="process_upgrade_form.php" method="POST">
+                <div class="formTop">
+                    <h1>Upgrade Booking Details:</h1>
+                    <a href="services.html" rel="print"><span class="material-symbols-rounded">arrow_back</span></a>
+                </div>
+                <div class="detail">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="detail">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="detail">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="detail">
+                    <label for="device">Device:</label>
+                    <select id="device" name="device" required>
+                        <option value="">Select a device</option>
+                        <option value="Laptop">Laptop</option>
+                        <option value="Desktop">Desktop</option>
+                        <option value="Tablet">Tablet</option>
+                        <option value="Smartphone">Smartphone</option>
+                    </select>
+                </div>
+                <div class="detail">
+                    <label for="upgrade-details">Upgrade Details:</label>
+                    <textarea id="upgrade-details" name="upgrade-details" required></textarea>
+                </div>
+                <div class="detail">
+                    <label for="appointment-date">Appointment Date:</label>
+                    <input type="date" id="appointment-date" name="appointment-date" required>
+                </div>
+                <div class="detail">
+                    <label for="appointment-time">Appointment Time:</label>
+                    <input type="time" id="appointment-time" name="appointment-time" required>
+                </div>
+                <div class="detail">
+                    <label for="additional-notes">Additional Notes:</label>
+                    <textarea id="additional-notes" name="additional-notes"></textarea>
+                </div>
 
-            <div class="submit">
-                <button class="sbn" type="submit" onclick="showNotification()">Book Upgrade</button>
-            </div>
-        </form>
+                <div class="submit">
+                    <button class="sbn" type="submit" onclick="showNotification()">Book Upgrade</button>
+                </div>
+            </form>
+        </div>
 
 
     </div>
