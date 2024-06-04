@@ -249,7 +249,7 @@ padding: 2rem;
 }
 .home-btn1{
   height: 50px;
-  width: 150px;
+  width: 100%;
   padding: 20px;
   font-size: x-large;
   background-color: rgb(59, 154, 154);
@@ -385,4 +385,26 @@ padding: 2rem;
 
   }
 }
-
+/* Notification */
+.notification{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .8rem;
+}
+.notif{
+  display: flex;
+  height: max-content;
+  width: 40rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: skyblue;
+}
+.serviceNotif{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.serviceNotif h4{
+  font-weight: 500;
+}
