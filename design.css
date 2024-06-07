@@ -207,7 +207,7 @@ body{
   display: inline-block;
   background-color: #71f3ab;
   border-radius: 4rem;
-  padding: 1rem 2rem;
+  padding: 5px 5px;
   margin-top: 2rem;
   height: fit-content;
   width: fit-content;
@@ -220,7 +220,7 @@ body{
   background-color: transparent;
   text-align: center;
   gap: 1rem;
-  padding: 5px;
+  padding: 10px;
   background-color: red;
 }
 .panel a{
@@ -231,10 +231,10 @@ body{
 }
 .panel .nav-item {
   display: inline-block;
-  padding: 5px 10px;
+  padding: 5px 15px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 10px;
   width: fit-content;
   color: black; /* Dark grey text color */
   transition: background-color 0.2s ease-in, color 0.2s ease-in; /* Transition for both background-color and color */
