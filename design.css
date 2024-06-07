@@ -221,13 +221,11 @@ body{
   text-align: center;
   gap: 1rem;
   padding: 10px;
-  background-color: red;
 }
 .panel a{
   background-color: transparent;
   width: fit-content;
   height: max-content;
-  background-color: yellow;
 }
 .panel .nav-item {
   display: inline-block;
@@ -292,7 +290,6 @@ padding: 2rem;
 .submit{
   width: 100%;
   height: 100%;
-
 }
 .home-btn1{
   display: flex;
@@ -306,8 +303,6 @@ padding: 2rem;
   padding: 0 1rem 1rem 1rem;
 
 }
-
-
 .submit .sbn{
   width: fit-content;
   height: max-content;
@@ -317,10 +312,8 @@ padding: 2rem;
   border: none;
   font-size: 25px;
   font-weight: 600;
-  
 }
 .home-btn1 .btn{
-
   height: 100px;
   width: 200px;
   padding: 10px;
@@ -329,7 +322,6 @@ padding: 2rem;
   background-color: #25e97d;
   border: none;
   transition: background-color 0.2s ease-in, color 0.2s ease-in;
-
 }
 #upgrade-form .detail{
   width: 100%;
@@ -359,8 +351,6 @@ padding: 2rem;
   width: 45dvw ;
   font-size: 20px
 }
-
-
 /* ------------- Terms ----------------- */
 .terms{
   display: flex;
@@ -373,7 +363,6 @@ padding: 2rem;
   width: 100%;
   height: 100%;
   padding: 0 1rem 1rem 1rem;
-
 }
 /* ------------- About ----------------- */
 .contact-info{
@@ -400,13 +389,11 @@ padding: 2rem;
 .contact-info .social-media-link a img, .contact-info .phone-info img{
   height: 30px;
   width: auto;
-
 }
 .about{
   margin-top: 1rem;
   height: fit-content;
   width: 100%;
-
 }
 
 /* ----------------------responsive --------------------------- */
@@ -480,13 +467,15 @@ padding: 2rem;
    display: flex;
    align-items: center; 
    background-color: #71f3ab;
+   padding: 2px;
+   margin-top: 2rem;
   }
   .panel{
     display: flex;
     height: fit-content;
     width: max-content;
     text-align: center;
-    gap: 1rem;
+    gap: 2px;
     padding: 1px;
   }
   .container .text h1{
