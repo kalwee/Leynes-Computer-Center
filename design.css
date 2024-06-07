@@ -240,7 +240,7 @@ body{
   display: flex;
   align-items: center;
   height: fit-content;
-  width: 60%;
+  width: fit-content;
   gap: 10px;
   margin: auto;
 }
