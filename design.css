@@ -227,13 +227,14 @@ body{
   background-color: transparent;
   width: fit-content;
   height: max-content;
+  background-color: yellow;
 }
 .panel .nav-item {
   display: inline-block;
   padding: 5px 10px;
   text-decoration: none;
   font-weight: 600;
-  font-size: x-large;
+  font-size: 16px;
   width: fit-content;
   color: black; /* Dark grey text color */
   transition: background-color 0.2s ease-in, color 0.2s ease-in; /* Transition for both background-color and color */
@@ -495,6 +496,16 @@ padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .panel .nav-item {
+    display: inline-block;
+    padding: 1px 3px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    width: fit-content;
+    color: black; /* Dark grey text color */
+    transition: background-color 0.2s ease-in, color 0.2s ease-in; /* Transition for both background-color and color */
   }
 
 }
