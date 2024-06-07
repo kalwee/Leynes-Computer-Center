@@ -476,7 +476,11 @@ padding: 2rem;
 
   }
   .nav-panel{
-    
+   height: fit-content;
+   width: fit-content; 
+   display: flex;
+   align-items: center; 
+   background-color: red;
   }
 
 }
