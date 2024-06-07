@@ -125,7 +125,7 @@ body{
     transform: scale(.6);
     margin: 5% 0 5%;
   }   
-  /*Button*/
+  /*-------------------------------------------Button-------------------------------------------*/
   .form button a{
     color: #fff;
   }
@@ -149,7 +149,7 @@ body{
 
 /* end of login */
 
-/* logo */
+/* -------------------------------------------logo------------------------------------------- */
 .container{
   position: relative;
   width: 100%;
@@ -173,15 +173,17 @@ body{
 }
 /* end of logo */
 
-/* text */
+/* -------------------------------------------text------------------------------------------- */
 .text {
   position: absolute;
   top: 0;
   height: fit-content;
-  width: fit-content;
-  left: 15rem;
+  width: 100%;
+  align-items: center;
+  left: 0rem;
   margin-top: 140px;
   text-align: center;
+
 }
 .container .text h1{
   white-space: nowrap;
@@ -199,7 +201,7 @@ body{
 }
 
 /* end of text */
-/* nav-panel */
+/* --------------------------------------nav-panel-------------------------------------------- */
 
 .nav-panel{
   display: inline-block;
@@ -223,7 +225,7 @@ body{
 .panel a{
   background-color: transparent;
   width: fit-content;
-  height: auto;
+  height: max-content;
 }
 .panel .nav-item {
   display: inline-block;
@@ -470,17 +472,21 @@ padding: 2rem;
 }
 
 @media (max-width:380px) {
-  .container .logo .text h1{
-  font-size: 30px;
-  padding-top: 30px;
-
-  }
   .nav-panel{
-   height: fit-content;
-   width: fit-content; 
+   height: 100%;
+   width: 100%; 
    display: flex;
    align-items: center; 
-   background-color: red;
+   background-color: #71f3ab;
+  }
+  .container .text h1{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
   }
 
 }
