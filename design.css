@@ -156,7 +156,6 @@ body{
   height: 100%;
   overflow: auto;
   margin: 0 auto;
-  border-radius: 2rem;
   box-sizing: border-box;
   text-align: center;
 
@@ -210,7 +209,7 @@ body{
   padding: 5px 5px;
   margin-top: 2rem;
   height: fit-content;
-  width: fit-content;
+  width: 100%;
   
 }
 .panel{
@@ -232,10 +231,26 @@ body{
   padding: 5px 15px;
   text-decoration: none;
   font-weight: 600;
-  font-size: 10px;
+  font-size: 22px;
   width: fit-content;
   color: black; /* Dark grey text color */
   transition: background-color 0.2s ease-in, color 0.2s ease-in; /* Transition for both background-color and color */
+}
+.top{
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  width: 60%;
+  gap: 10px;
+  margin: auto;
+}
+#notif{
+  color: red;
+  display: flex;
+  margin-top: 2rem;
+  height: fit-content;
+  width: fit-content;
+  
 }
 .container .nav-panel .panel .nav-item:hover{
   background-color: #1e9ef3; /* Light blue background color on hover */
