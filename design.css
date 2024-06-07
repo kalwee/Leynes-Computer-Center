@@ -473,8 +473,8 @@ padding: 2rem;
 
 @media (max-width:380px) {
   .nav-panel{
-   height: 100%;
-   width: 100%; 
+   height: max-content;
+   width: fit-content; 
    display: flex;
    align-items: center; 
    background-color: #71f3ab;
