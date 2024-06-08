@@ -278,8 +278,8 @@ padding: 2rem;
   flex-direction: column;
 }
 .btn-group .btn{
-  height: 15dvh;
-  width: 20dvw ;
+  height: 13dvh;
+  width: 30dvw ;
   padding: 5px;
   font-size: 25px;
   font-weight: 500;
