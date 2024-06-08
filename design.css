@@ -288,7 +288,7 @@ padding: 2rem;
   border: none;
 }
 .btn-group .btn:hover{
-  background-color: #944111 ;
+  background-color: rgb(0, 255, 170) ;
   color: white;
 }
 /* end of services */
