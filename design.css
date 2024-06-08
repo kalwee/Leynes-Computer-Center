@@ -160,6 +160,7 @@ body{
   margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
+  overflow: auto;
 }
 .container .logo{
   width: 100%;
